@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15CB86EC28F48D8D00EF271C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB86EB28F48D8D00EF271C /* AppDelegate.swift */; };
+		15CB86EE28F48D8D00EF271C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB86ED28F48D8D00EF271C /* SceneDelegate.swift */; };
+		15CB86F028F48D8D00EF271C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB86EF28F48D8D00EF271C /* ViewController.swift */; };
+		15CB86F328F48D8D00EF271C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CB86F128F48D8D00EF271C /* Main.storyboard */; };
+		15CB86F528F48D8E00EF271C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CB86F428F48D8E00EF271C /* Assets.xcassets */; };
+		15CB86F828F48D8E00EF271C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CB86F628F48D8E00EF271C /* LaunchScreen.storyboard */; };
+		15CB870328F48D8E00EF271C /* SofitTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB870228F48D8E00EF271C /* SofitTaskTests.swift */; };
+		15CB870D28F48D8E00EF271C /* SofitTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB870C28F48D8E00EF271C /* SofitTaskUITests.swift */; };
+		15CB870F28F48D8E00EF271C /* SofitTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB870E28F48D8E00EF271C /* SofitTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15CB86FF28F48D8E00EF271C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CB86E028F48D8D00EF271C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CB86E728F48D8D00EF271C;
+			remoteInfo = SofitTask;
+		};
+		15CB870928F48D8E00EF271C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CB86E028F48D8D00EF271C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CB86E728F48D8D00EF271C;
+			remoteInfo = SofitTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CB86E828F48D8D00EF271C /* SofitTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SofitTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CB86EB28F48D8D00EF271C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15CB86ED28F48D8D00EF271C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15CB86EF28F48D8D00EF271C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15CB86F228F48D8D00EF271C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15CB86F428F48D8E00EF271C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15CB86F728F48D8E00EF271C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15CB86F928F48D8E00EF271C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CB86FE28F48D8E00EF271C /* SofitTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SofitTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CB870228F48D8E00EF271C /* SofitTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofitTaskTests.swift; sourceTree = "<group>"; };
+		15CB870828F48D8E00EF271C /* SofitTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SofitTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CB870C28F48D8E00EF271C /* SofitTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofitTaskUITests.swift; sourceTree = "<group>"; };
+		15CB870E28F48D8E00EF271C /* SofitTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofitTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CB86E528F48D8D00EF271C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB86FB28F48D8E00EF271C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB870528F48D8E00EF271C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CB86DF28F48D8D00EF271C = {
+			isa = PBXGroup;
+			children = (
+				15CB86EA28F48D8D00EF271C /* SofitTask */,
+				15CB870128F48D8E00EF271C /* SofitTaskTests */,
+				15CB870B28F48D8E00EF271C /* SofitTaskUITests */,
+				15CB86E928F48D8D00EF271C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15CB86E928F48D8D00EF271C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15CB86E828F48D8D00EF271C /* SofitTask.app */,
+				15CB86FE28F48D8E00EF271C /* SofitTaskTests.xctest */,
+				15CB870828F48D8E00EF271C /* SofitTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15CB86EA28F48D8D00EF271C /* SofitTask */ = {
+			isa = PBXGroup;
+			children = (
+				15CB86EB28F48D8D00EF271C /* AppDelegate.swift */,
+				15CB86ED28F48D8D00EF271C /* SceneDelegate.swift */,
+				15CB86EF28F48D8D00EF271C /* ViewController.swift */,
+				15CB86F128F48D8D00EF271C /* Main.storyboard */,
+				15CB86F428F48D8E00EF271C /* Assets.xcassets */,
+				15CB86F628F48D8E00EF271C /* LaunchScreen.storyboard */,
+				15CB86F928F48D8E00EF271C /* Info.plist */,
+			);
+			path = SofitTask;
+			sourceTree = "<group>";
+		};
+		15CB870128F48D8E00EF271C /* SofitTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				15CB870228F48D8E00EF271C /* SofitTaskTests.swift */,
+			);
+			path = SofitTaskTests;
+			sourceTree = "<group>";
+		};
+		15CB870B28F48D8E00EF271C /* SofitTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15CB870C28F48D8E00EF271C /* SofitTaskUITests.swift */,
+				15CB870E28F48D8E00EF271C /* SofitTaskUITestsLaunchTests.swift */,
+			);
+			path = SofitTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15CB86E728F48D8D00EF271C /* SofitTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CB871228F48D8E00EF271C /* Build configuration list for PBXNativeTarget "SofitTask" */;
+			buildPhases = (
+				15CB86E428F48D8D00EF271C /* Sources */,
+				15CB86E528F48D8D00EF271C /* Frameworks */,
+				15CB86E628F48D8D00EF271C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SofitTask;
+			productName = SofitTask;
+			productReference = 15CB86E828F48D8D00EF271C /* SofitTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15CB86FD28F48D8E00EF271C /* SofitTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CB871528F48D8E00EF271C /* Build configuration list for PBXNativeTarget "SofitTaskTests" */;
+			buildPhases = (
+				15CB86FA28F48D8E00EF271C /* Sources */,
+				15CB86FB28F48D8E00EF271C /* Frameworks */,
+				15CB86FC28F48D8E00EF271C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CB870028F48D8E00EF271C /* PBXTargetDependency */,
+			);
+			name = SofitTaskTests;
+			productName = SofitTaskTests;
+			productReference = 15CB86FE28F48D8E00EF271C /* SofitTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15CB870728F48D8E00EF271C /* SofitTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CB871828F48D8E00EF271C /* Build configuration list for PBXNativeTarget "SofitTaskUITests" */;
+			buildPhases = (
+				15CB870428F48D8E00EF271C /* Sources */,
+				15CB870528F48D8E00EF271C /* Frameworks */,
+				15CB870628F48D8E00EF271C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CB870A28F48D8E00EF271C /* PBXTargetDependency */,
+			);
+			name = SofitTaskUITests;
+			productName = SofitTaskUITests;
+			productReference = 15CB870828F48D8E00EF271C /* SofitTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15CB86E028F48D8D00EF271C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					15CB86E728F48D8D00EF271C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					15CB86FD28F48D8E00EF271C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 15CB86E728F48D8D00EF271C;
+					};
+					15CB870728F48D8E00EF271C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 15CB86E728F48D8D00EF271C;
+					};
+				};
+			};
+			buildConfigurationList = 15CB86E328F48D8D00EF271C /* Build configuration list for PBXProject "SofitTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15CB86DF28F48D8D00EF271C;
+			productRefGroup = 15CB86E928F48D8D00EF271C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15CB86E728F48D8D00EF271C /* SofitTask */,
+				15CB86FD28F48D8E00EF271C /* SofitTaskTests */,
+				15CB870728F48D8E00EF271C /* SofitTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15CB86E628F48D8D00EF271C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CB86F828F48D8E00EF271C /* LaunchScreen.storyboard in Resources */,
+				15CB86F528F48D8E00EF271C /* Assets.xcassets in Resources */,
+				15CB86F328F48D8D00EF271C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB86FC28F48D8E00EF271C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB870628F48D8E00EF271C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15CB86E428F48D8D00EF271C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CB86F028F48D8D00EF271C /* ViewController.swift in Sources */,
+				15CB86EC28F48D8D00EF271C /* AppDelegate.swift in Sources */,
+				15CB86EE28F48D8D00EF271C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB86FA28F48D8E00EF271C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CB870328F48D8E00EF271C /* SofitTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB870428F48D8E00EF271C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CB870D28F48D8E00EF271C /* SofitTaskUITests.swift in Sources */,
+				15CB870F28F48D8E00EF271C /* SofitTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15CB870028F48D8E00EF271C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CB86E728F48D8D00EF271C /* SofitTask */;
+			targetProxy = 15CB86FF28F48D8E00EF271C /* PBXContainerItemProxy */;
+		};
+		15CB870A28F48D8E00EF271C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CB86E728F48D8D00EF271C /* SofitTask */;
+			targetProxy = 15CB870928F48D8E00EF271C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15CB86F128F48D8D00EF271C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CB86F228F48D8D00EF271C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15CB86F628F48D8E00EF271C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CB86F728F48D8E00EF271C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15CB871028F48D8E00EF271C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15CB871128F48D8E00EF271C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15CB871328F48D8E00EF271C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SofitTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ttdlal.SofitTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15CB871428F48D8E00EF271C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SofitTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ttdlal.SofitTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15CB871628F48D8E00EF271C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ttdlal.SofitTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SofitTask.app/SofitTask";
+			};
+			name = Debug;
+		};
+		15CB871728F48D8E00EF271C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ttdlal.SofitTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SofitTask.app/SofitTask";
+			};
+			name = Release;
+		};
+		15CB871928F48D8E00EF271C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ttdlal.SofitTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SofitTask;
+			};
+			name = Debug;
+		};
+		15CB871A28F48D8E00EF271C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ttdlal.SofitTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SofitTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15CB86E328F48D8D00EF271C /* Build configuration list for PBXProject "SofitTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CB871028F48D8E00EF271C /* Debug */,
+				15CB871128F48D8E00EF271C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CB871228F48D8E00EF271C /* Build configuration list for PBXNativeTarget "SofitTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CB871328F48D8E00EF271C /* Debug */,
+				15CB871428F48D8E00EF271C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CB871528F48D8E00EF271C /* Build configuration list for PBXNativeTarget "SofitTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CB871628F48D8E00EF271C /* Debug */,
+				15CB871728F48D8E00EF271C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CB871828F48D8E00EF271C /* Build configuration list for PBXNativeTarget "SofitTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CB871928F48D8E00EF271C /* Debug */,
+				15CB871A28F48D8E00EF271C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15CB86E028F48D8D00EF271C /* Project object */;
+}
