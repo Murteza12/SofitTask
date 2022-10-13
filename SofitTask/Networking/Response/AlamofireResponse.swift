@@ -2,8 +2,7 @@
 //  AlamofireResponse.swift
 //  Delivery_App
 //
-//  Created by Rashid on 02/06/2020.
-//  Copyright © 2020 Tech Bay Portal. All rights reserved.
+//   Created by Murteza on 10/10/2022.
 //
 
 import Alamofire

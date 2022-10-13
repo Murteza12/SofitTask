@@ -1,8 +1,8 @@
 //
 //  Internet+Extension.swift
-//  fonewire
 //
-//  Created by Murteza on 13/08/2021.
+//
+//  Created by Murteza 
 //
 import Alamofire
 struct Connectivity {

@@ -2,9 +2,8 @@
 //  ResponseHandler.swift
 //  Delivery_App
 //
-//  Created by Rashid on 02/06/2020.
-//  Copyright © 2020 Tech Bay Portal. All rights reserved.
-//
+//   Created by Murteza on 10/10/2022.
+
 
 
 import Foundation
@@ -48,12 +47,12 @@ extension HandleAlamoResponse {
                     switch urlError.code {
                     case .timedOut:
                         print("Timed out error")
-                        Utility.showLoaf(message: "Please try again later!", state: .warning, location: .top)
+//                        Utility.showLoaf(message: "Please try again later!", state: .warning, location: .top)
                         ActivityIndicator.shared.hideLoadingIndicator()
                         return
                     case .notConnectedToInternet:
                         print("Not connected")
-                        Utility.showLoaf(message: "Please make sure you are connected to Internet!", state: .error, location: .top)
+//                        Utility.showLoaf(message: "Please make sure you are connected to Internet!", state: .error, location: .top)
                         ActivityIndicator.shared.hideLoadingIndicator()
                         return
                     default:
@@ -69,12 +68,13 @@ extension HandleAlamoResponse {
                     print(tempData.message ?? "")
                     var errorString = ""
                     errorString = tempData.message ?? ""
-                    let customError = CustomError(title: "User error", description: errorString, code: error.responseCode ?? 422)
+                    let customError = CustomError(title: "Deleted sucessfully!", description: errorString, code: error.responseCode ?? 204)
                     completion?(.failure(customError))
                 }catch let err{
                     print(err)
                     if let err = err as? URLError, err.code  == URLError.Code.notConnectedToInternet {
-                        Utility.showLoaf(message: "Not Internet Connection", state: .warning, location: .bottom)
+//                       Utility.showLoaf(message: "Not Internet Connection",               state: .warning, location: .bottom)
+                        print("Not Internet Connection")
                     } else {
                         // Other errors
                     }

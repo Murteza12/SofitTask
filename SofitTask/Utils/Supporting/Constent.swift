@@ -1,32 +1,15 @@
 //
 //  Constent.swift
-//  TTDLAL(Cutomer)
 //
-//  Created by Murteza on 10/05/2021.
+//
+//  Created by Murteza on 
 //
 
 import Foundation
 struct Constant {
-static let BASE_URL = ""
-    
-    enum TransactionType {
-        
-        static let TRX_SRX_SEND = "send_money"
-        static let TRX_SRX_TOPUP = "Stripe"
-        static let TRX_SRX_LOAN = "loan_process_fee"
-        static let TRX_SRX_INSURANCE_CAR = "Car_insurance_amount"
-        static let TRX_SRX_INSURANCE_HOME = "Home_insurance_amount"
-        static let TRX_SRX_INSURANCE_TRAVEL = "Travel_insurance_amount"
-        static let TRX_SRX_INSURANCE_HEALTH = "Health_insurance_amount"
-        static let TRX_SRX_INSURANCE_PHONE = "MobilePhone_insurance_amount"
-        static let TRX_SRX_INSURANCE_PET = "Pet_insurance_amount"
-        static let TRX_SRX_MARKETPLACE = "product_payment"
-        static let TRX_SRX_SAVINGS = "_saving_deposit"
-        static let TRX_SRX_RECHARGE = "recharge_payment"
-        static let TRX_SRX_SAVING_WITHDRAW = "saving_withdraw"
-        static let TRX_SRX_SAVING_DEPOSIT = "saving_deposit"
-    }
-    
+static let BASE_URL = "https://transformers-api.firebaseapp.com/"
+static let ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0cmFuc2Zvcm1lcnNJZCI6Ii1ORG1Odnhpb1dGNS1sTWRnOU01IiwiaWF0IjoxNjY1MTQ1MjI3fQ.2dddf0lQO4Kl7GcCxxxl12p1KZeC5ZeFK6-kiF3cvHA"
+    static let CONNECTION_ERROR = "Make sure you are connected to interent!"
 }
 
 

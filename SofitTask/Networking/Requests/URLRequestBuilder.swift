@@ -35,7 +35,7 @@
     }
     
     var mainURL: URL  {
-        return URL(string: Constant.BaseUrl)!
+        return URL(string: Constant.BASE_URL)!
     }
     
     var requestURL: URL {

@@ -1,8 +1,8 @@
 //
 //  ActivityIndicator.swift
-//  Alazba
+//  
 //
-//  Created by Myansh Passi on 17/11/20.
+//  Created by Murteza
 //
 
 import UIKit
